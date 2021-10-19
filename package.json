@@ -1,0 +1,24 @@
+{
+  "name": "cpg-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/Index.js",
+  "types": "lib/Index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CPG"
+  ],
+  "author": "Tolfx",
+  "license": "ISC",
+  "files": [
+    "lib/**/*"
+  ],
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.1"
+  }
+}
