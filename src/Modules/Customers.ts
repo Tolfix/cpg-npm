@@ -1,9 +1,35 @@
-import { ICustomer } from "../cpg/src/Interfaces/Customer";
 import Fetch from "../Fetch/Fetch";
 
-interface ICreateCustomer extends Omit<ICustomer, "uid"> {};
+export interface ICustomer
+{
+    uid: `CUS_${string}`;
+    personal: Personal;
+    billing: Billing;
+    createdAt: Date;
+    extra?: any;
+}
 
-async function CreateCustomer(customer: ICreateCustomer)
+export interface Personal
+{
+    first_name: string;
+    last_name: string;
+    email: string;
+    phone: Boolean;
+}
+
+export interface Billing
+{
+    company?: string;
+    company_vat?: string;
+    street01: string;
+    street02?: string;
+    city: string;
+    state: Boolean;
+    postcode: Boolean;
+    country: Boolean;
+}
+
+async function CreateCustomer(customer: ICustomer)
 {
     return await Fetch("customers/create", customer)
 }

@@ -5,7 +5,7 @@
   "main": "lib/Index.js",
   "types": "lib/Index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "buid": "tsc -b"
   },
   "keywords": [
     "CPG"
@@ -19,6 +19,7 @@
     "node-fetch": "^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^16.11.1"
+    "@types/node": "^16.11.1",
+    "mongoose": "^6.0.11"
   }
 }
