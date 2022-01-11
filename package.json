@@ -1,14 +1,16 @@
 {
   "name": "cpg-npm",
   "version": "1.0.4",
-  "description": "CPG-API module for npm",
+  "description": "cpg-api module for npm",
   "main": "lib/Index.js",
   "types": "lib/Index.d.ts",
   "scripts": {
     "buid": "tsc -b"
   },
   "keywords": [
-    "CPG"
+    "cpg",
+    "cpg-api",
+    "cpg-npm"
   ],
   "author": "Tolfx",
   "license": "ISC",
