@@ -1,6 +1,6 @@
 {
   "name": "cpg-npm",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "cpg-api module for npm",
   "main": "lib/Index.js",
   "types": "lib/Index.d.ts",
