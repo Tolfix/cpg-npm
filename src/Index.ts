@@ -11,6 +11,10 @@ import InvoicesDelete from "./REST/Invoices/Invoices.delete";
 import InvoicesGet from "./REST/Invoices/Invoices.get";
 import InvoicesPost from "./REST/Invoices/Invoices.post";
 import InvoicesPut from "./REST/Invoices/Invoices.put";
+import OrdersDelete from "./REST/Orders/Orders.delete";
+import OrdersGet from "./REST/Orders/Orders.get";
+import OrdersPost from "./REST/Orders/Orders.post";
+import OrdersPut from "./REST/Orders/Orders.put";
 
 const CPG_NPM = {
     config: {...CacheModules},
@@ -31,6 +35,12 @@ const CPG_NPM = {
         post: InvoicesPost,
         delete: InvoicesDelete,
         put: InvoicesPut,
+    },
+    orders: {
+        get: OrdersGet,
+        post: OrdersPost,
+        delete: OrdersDelete,
+        put: OrdersPut,
     }
 }
 
