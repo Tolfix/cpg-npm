@@ -1,4 +1,4 @@
-import { ICategory } from "../../Interfaces/Categories/Categories.interface";
+import { ICategory } from "../../Interfaces/Categories.interface";
 import Fetch from "../../Modules/Fetch";
 
 export default function(id: ICategory["id"] | ICategory["uid"]): Promise<{}>

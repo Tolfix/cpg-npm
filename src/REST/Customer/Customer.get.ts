@@ -1,4 +1,4 @@
-import { ICustomer } from "../../Interfaces/Customer/Customer.interface";
+import { ICustomer } from "../../Interfaces/Customer.interface";
 import Fetch from "../../Modules/Fetch";
 
 export default function<

@@ -1,4 +1,4 @@
-import { ICategory } from "../../Interfaces/Categories/Categories.interface";
+import { ICategory } from "../../Interfaces/Categories.interface";
 import Fetch from "../../Modules/Fetch";
 import { ICategoriesOptions } from "./Categories.post";
 

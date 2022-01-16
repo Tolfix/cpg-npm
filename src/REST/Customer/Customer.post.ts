@@ -1,5 +1,4 @@
-import { ICategory } from "../../Interfaces/Categories/Categories.interface";
-import { ICustomer } from "../../Interfaces/Customer/Customer.interface";
+import { ICustomer } from "../../Interfaces/Customer.interface";
 import Fetch from "../../Modules/Fetch";
 
 export type ICustomerOptions = Omit<ICustomer, "id" | "uid">;
