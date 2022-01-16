@@ -23,7 +23,7 @@ import { IPromotionsCodes } from "./PromotionsCodes.interface";
 
 export interface IOrder
 {
-    id: any;
+    id: number;
     uid: `ORD_${string}`;
     customer_uid: ICustomer["uid"];
     products: Array<{

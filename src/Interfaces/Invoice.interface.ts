@@ -44,7 +44,7 @@ import { ITransactions } from "./Transactions.interface";
  */
 export interface IInvoice
 {
-    id: any;
+    id: number;
     uid: `INV_${string}`;
     customer_uid: ICustomer["uid"];
     dates: IInvoice_Dates;

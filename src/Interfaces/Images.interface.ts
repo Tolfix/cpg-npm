@@ -9,7 +9,7 @@
 
 export interface IImage
 {
-    id: any;
+    id: number;
     uid: `IMG_${string}`;
     data: Buffer;
     type: string;

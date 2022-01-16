@@ -12,6 +12,7 @@ import { IInvoice } from "./Invoice.interface";
  */
 export interface ITransactions
 {
+    id: number;
     uid: `TRAN_${string}`;
     customer_uid: ICustomer["uid"];
     invoice_uid: IInvoice["uid"];
@@ -20,5 +21,3 @@ export interface ITransactions
     amount: IInvoice["amount"];
     fees: number;
 }
-
-export interface IDTransactions extends ITransactions, Document {}
