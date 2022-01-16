@@ -27,7 +27,7 @@ export interface ICache
     isUsingGraphql: boolean;
 
     set(options: Partial<ICache>): void;
-    get(): ICache;
+    get<K extends keyof ICFCache>(key: K): ICache[K];
     clear(): void;
 }
 
