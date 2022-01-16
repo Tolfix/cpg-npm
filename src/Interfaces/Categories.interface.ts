@@ -1,4 +1,4 @@
-import { IImage } from "../Images/Images.interface";
+import { IImage } from "./Images/Images.interface";
 
 export interface ICategory
 {
