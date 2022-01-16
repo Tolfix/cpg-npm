@@ -7,6 +7,35 @@
 # ⭐ | cpg-npm
 cpg-npm is being used to intereact with [CPG-API](https://github.com/Tolfix/cpg-api).
 
+# 📝| Examples
+
+## Caching Configs
+```ts
+import CPG from "cpg-npm";
+
+// Set config, then you are ready to use cpg
+CPG.config.set({
+    admin: {
+        password: "password for admin on cpg",
+        username: "username for admin on cpg"
+    },
+    cpg: {
+        // host for cpg, example: cpg.example.com
+        host: "localhost:8080",
+        // http or https
+        protocol: "http"
+    },
+    // If you want to use rest api, set this to true
+    isUsingRest: true,
+    // If you want to use graphql instead, set to true
+    isUsingGraphql: false,
+    // Rest api version, default is v2
+    rest: {
+        version: "v2"
+    },
+});
+```
+
 # 📢 | Contribute
 Want to contribute? Great! You can contribute by `forking` this repository, then make changes and make a `PR`!
 
