@@ -5,7 +5,7 @@
   "main": "lib/Index.js",
   "types": "lib/Index.d.ts",
   "scripts": {
-    "buid": "tsc -b"
+    "build": "tsc -b"
   },
   "keywords": [
     "cpg",
@@ -18,10 +18,11 @@
     "lib/**/*"
   ],
   "dependencies": {
-    "node-fetch": "^3.0.0"
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
     "@types/node": "^16.11.1",
+    "@types/node-fetch": "^3.0.3",
     "mongoose": "^6.0.11"
   }
 }
